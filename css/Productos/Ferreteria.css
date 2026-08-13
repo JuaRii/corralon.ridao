@@ -1,0 +1,23 @@
+
+.filtros-container {
+    background-color: transparent;
+}
+
+.filtro-item {
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.filtro-item:hover {
+    opacity: 0.7;
+}
+
+.card {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1) !important;
+}

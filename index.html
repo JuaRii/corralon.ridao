@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corralón Ridao</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+    </style>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="src/img/logo/Marca - RIDAO 2021 - Final.png">
+</head>
+
+<body class="roboto-cuerpo">
+    <header>
+        <!-- Nav Responsive -->
+        <nav class="navbar p-md-1 navbar-expand-lg bg-blanco roboto-subtitle">
+            <div class="container-fluid px-3 px-md-4">
+                <a class="navbar-brand p-0" href="index.html">
+                    <img class="img-fluid ms-0 ms-md-5" src="src/img/logo/Marca - RIDAO 2021 - Final.png"
+                        alt="Logo Corralón Ridao" style="max-height: 70px; width: auto;">
+                </a>
+                <button class="navbar-toggler p-2 border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center mt-3 mt-lg-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-sm-auto me-lg-5 mb-2 mb-lg-0 gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#productos">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light bg-rojo rounded-4 d-inline-block px-4 py-2"
+                                href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin nav -->
+
+    <!-- Hero Responsive -->
+    <section class="hero-section d-flex align-items-center justify-content-center text-center">
+        <div class="hero-card p-4 p-md-5 text-white rounded-5 my-4">
+            <p class="hero-text fs-6 fs-md-5 fw-medium mb-4">
+                Somos una empresa familiar dedicada a la venta integral de materiales para la construcción y artículos
+                de ferretería. Nos distinguimos por brindar una atención cálida y personalizada, respaldada por años de
+                trayectoria en el rubro. Para garantizar la mayor comodidad de nuestros clientes, contamos con un
+                servicio de fletes propios, lo que nos permite asegurar entregas rápidas, seguras y efectivas
+                directamente en el pie de obra.
+            </p>
+            <a href="#servicios"
+                class="btn bg-rojo text-white rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2 fw-semibold border-0">
+                <i class="bi bi-arrow-down-circle"></i>
+                <span>VER MÁS</span>
+            </a>
+        </div>
+    </section>
+    <!-- Fin Hero -->
+
+    <!-- Slider Productos -->
+    <section class="bg-rojo py-5 text-white" id="productos">
+        <div class="container py-4">
+            <h2 class="text-center fw-bold mb-5 roboto-title text-uppercase">Productos Destacados</h2>
+
+            <!-- 1. CARRUSEL PARA MOBILE  -->
+            <div id="carouselProductosMobile" class="carousel slide d-block d-lg-none" data-bs-ride="carousel">
+                <div class="carousel-inner px-2">
+
+                    <!-- Producto 1 -->
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-8 col-md-6">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/cemento.jpeg" class="img-fluid"
+                                            alt="Cemento Loma Negra">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Cemento Loma Negra - 25kg</h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 2 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-8 col-md-6">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/guantes.jpeg" class="img-fluid"
+                                            alt="Guantes Moteados">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Guantes Moteados Algodón</h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 3 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-8 col-md-6">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/destornillador.jpeg" class="img-fluid"
+                                            alt="Destornillador Bremen">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Destornillador Phillips 6x100 Bremen
+                                        </h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 4 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-8 col-md-6">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/cinta.jpeg" class="img-fluid"
+                                            alt="Cinta Aisladora Tacsa">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Cinta Aisladora PVC Negro 20 Mts
+                                            Tacsa</h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 5 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-8 col-md-6">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/disco.jpeg" class="img-fluid"
+                                            alt="Disco de Corte Bosch">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Disco de Corte 115 Mm Rapido Bosch
+                                        </h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 6 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-8 col-md-6">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/garrafa.png" class="img-fluid"
+                                            alt="Garrafa YPF de 10kg">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Garrafa YPF de 10kg</h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 7 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-8 col-md-6">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/ecole.png" class="img-fluid"
+                                            alt="Pegamento Éccole 9g">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Pegamento Éccole 9g</h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 8 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-8 col-md-6">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/llave-inglesa.png" class="img-fluid"
+                                            alt="Llave Inglesa Bulit">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Llave Inglesa Bulit</h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProductosMobile"
+                    data-bs-slide="prev">
+                    <i class="bi bi-arrow-left-circle display-5 text-white" aria-hidden="true"></i>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselProductosMobile"
+                    data-bs-slide="next">
+                    <i class="bi bi-arrow-right-circle display-5 text-white" aria-hidden="true"></i>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+
+            <!-- CARRUSEL PARA DESKTOP -->
+            <div id="carouselProductosDesktop" class="carousel slide d-none d-lg-block" data-bs-ride="carousel">
+                <div class="carousel-inner px-md-5">
+
+                    <!-- Slide 1 (Primeros 5 productos) -->
+                    <div class="carousel-item active">
+                        <div class="row row-cols-5 g-4 justify-content-center">
+                            <div class="col">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/cemento.jpeg" class="img-fluid"
+                                            alt="Cemento Loma Negra">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Cemento Loma Negra - 25kg</h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/guantes.jpeg" class="img-fluid"
+                                            alt="Guantes Moteados">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Guantes Moteados Algodón</h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/destornillador.jpeg" class="img-fluid"
+                                            alt="Destornillador Bremen">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Destornillador Phillips 6x100 Bremen
+                                        </h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/cinta.jpeg" class="img-fluid"
+                                            alt="Cinta Aisladora Tacsa">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Cinta Aisladora PVC Negro 20 Mts
+                                            Tacsa</h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/disco.jpeg" class="img-fluid"
+                                            alt="Disco de Corte Bosch">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Disco de Corte 115 Mm Rapido Bosch
+                                        </h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 (Siguientes productos) -->
+                    <div class="carousel-item">
+                        <div class="row row-cols-5 g-4 justify-content-center">
+                            <div class="col">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/cinta.jpeg" class="img-fluid"
+                                            alt="Cinta Aisladora Tacsa">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Cinta Aisladora PVC Negro 20 Mts
+                                            Tacsa</h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/disco.jpeg" class="img-fluid"
+                                            alt="Disco de Corte Bosch">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Disco de Corte 115 Mm Rapido Bosch
+                                        </h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/garrafa.png" class="img-fluid"
+                                            alt="Garrafa YPF de 10kg">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Garrafa YPF de 10kg</h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/ecole.png" class="img-fluid"
+                                            alt="Pegamento Éccole 9g">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Pegamento Éccole 9g</h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div
+                                    class="card h-100 border-0 rounded-5 p-3 text-dark text-center shadow-sm d-flex flex-column justify-content-between">
+                                    <div
+                                        class="product-img-wrapper d-flex align-items-center justify-content-center mb-3">
+                                        <img src="src/img/Productos/Ferreteria/llave-inglesa.png" class="img-fluid"
+                                            alt="Llave Inglesa Bulit">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-title fs-6 fw-bold mb-3">Llave Inglesa Bulit</h3>
+                                        <a href="https://wa.me/123456789"
+                                            class="btn btn-consultar rounded-pill w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                                            <i class="bi bi-whatsapp fs-5"></i> CONSULTAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProductosDesktop"
+                    data-bs-slide="prev">
+                    <i class="bi bi-arrow-left-circle display-5 text-white" aria-hidden="true"></i>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselProductosDesktop"
+                    data-bs-slide="next">
+                    <i class="bi bi-arrow-right-circle display-5 text-white" aria-hidden="true"></i>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+
+        </div>
+    </section>
+    <!-- Fin Slider -->
+
+    <!-- Servicios -->
+    <section class="servicios-section py-5" id="servicios">
+        <div class="container py-4">
+            <h2 class="text-center c-rojo roboto-title mb-5 text-uppercase">Servicios</h2>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Card 1: MATERIALES -->
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+                    <div class="card service-card h-100 bg-blanco shadow rounded-5 border-0">
+                        <div class="card-body d-flex flex-column align-items-center text-center p-4">
+                            <div class="image-hover-container mb-4 rounded-4 shadow-sm">
+                                <img src="src/img/materiales.jpg" alt="Servicio de fletes" class="service-image">
+                                <div class="hover-overlay p-3">
+                                    <p class="hover-text text-white roboto-cuerpo m-0">
+                                        Tenemos servicio de fletes para garantizar los pedidos y que lleguen de forma
+                                        eficaz y rápido
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="card-title c-rojo roboto-subtitle mb-3">MATERIALES</h3>
+                            <a href="materiales.html" class="btn btn-consultar rounded-pill px-4 fw-bold shadow-sm">Ver
+                                productos</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: FERRETERIA -->
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+                    <div class="card service-card h-100 bg-blanco shadow rounded-5 border-0">
+                        <div class="card-body d-flex flex-column align-items-center text-center p-4">
+                            <div class="image-hover-container mb-4 rounded-4 shadow-sm">
+                                <img src="src/img/ferreteria.jpg" alt="Ferretería Ridao" class="service-image">
+                                <div class="hover-overlay p-3">
+                                    <p class="hover-text text-white roboto-cuerpo m-0">
+                                        Amplia variedad en ferretería y corralón
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="card-title c-rojo roboto-subtitle mb-3">FERRETERIA</h3>
+                            <a href="ferreteria.html" class="btn btn-consultar rounded-pill px-4 fw-bold shadow-sm">Ver
+                                productos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Servicios -->
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="bg-blanco py-5">
+            <div class="container">
+                <div class="row gy-4 align-items-center justify-content-between">
+                    <!-- Logo -->
+                    <div class="col-12 col-md-4 text-center text-md-start">
+                        <a href="index.html">
+                            <img src="src/img/logo/Marca - RIDAO 2021 - Final.png" alt="Corralón Ridao"
+                                class="img-fluid" style="max-width: 180px;">
+                        </a>
+                    </div>
+                    <!-- Links -->
+                    <div class="col-12 col-md-3 text-center text-md-start">
+                        <ul class="list-unstyled mb-0 d-flex flex-column gap-2 fw-bold">
+                            <li><a href="index.html" class="text-decoration-none c-rojo">Inicio</a></li>
+                            <li><a href="#productos" class="text-decoration-none c-rojo">Productos</a></li>
+                            <li><a href="#servicios" class="text-decoration-none c-rojo">Servicios</a></li>
+                            <li><a href="contacto.html" class="text-decoration-none c-rojo">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <!-- Contacto -->
+                    <div class="col-12 col-md-4 text-center text-md-start">
+                        <div class="d-flex flex-column gap-3 fw-bold c-rojo">
+                            <a href="https://instagram.com/ferreteriaridao" target="_blank"
+                                class="text-decoration-none c-rojo d-flex align-items-center justify-content-center justify-content-md-start gap-2">
+                                <i class="bi bi-instagram fs-5"></i>
+                                <span>@ferreteriaridao</span>
+                            </a>
+                            <div class="d-flex align-items-start justify-content-center justify-content-md-start gap-2">
+                                <a href="https://share.google/CgVZE8T867dqX65bc" target="_blank"
+                                    class="text-decoration-none c-rojo d-flex align-items-center justify-content-center justify-content-md-start gap-2">
+                                    <i class="bi bi-geo-alt-fill fs-5 mt-1"></i>
+                                    <span>Miguel Ridao F. Norte 39, Santa Lucía, San Juan</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-rojo text-white text-center py-3">
+            <div class="container">
+                <small class="m-0">Copyright © Todos los derechos son reservados a Corralon y Ferreteria Ridao</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

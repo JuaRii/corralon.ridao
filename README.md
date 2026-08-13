@@ -1,6 +1,6 @@
 # Corralon y Ferreteria Ridao
 
-<a href="https://juarii.github.io/LocalTravel/">Pagina del Proyecto</a><br>
+<a href="https://juarii.github.io/corralon.ridao/">Pagina del Proyecto</a><br>
 Este es un proyecto universitario
 
 ## Descrición

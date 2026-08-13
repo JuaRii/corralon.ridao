@@ -1,0 +1,133 @@
+.map-wrapper {
+    position: relative;
+    width: 100%;
+    border-radius: 25px !important;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.map-wrapper iframe {
+    width: 100% !important;
+    height: 420px;
+}
+
+.contacto-section {
+    position: relative;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.contacto-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../src/img/waves/waves-pc.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    
+    opacity: 0.30; 
+    
+    pointer-events: none;
+    z-index: 0;
+}
+
+
+.contacto-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+
+.form-input-ridao {
+    border: 2px solid var(--red) !important;
+    border-radius: 50rem !important;
+    padding: 0.65rem 1.25rem !important;
+    font-weight: 600 !important;
+    color: #333 !important;
+    box-shadow: none !important;
+}
+
+.form-input-ridao::placeholder {
+    color: #212529 !important;
+    font-weight: bold !important;
+}
+
+.form-input-ridao:focus {
+    border-color: var(--red) !important;
+    box-shadow: 0 0 0 0.25rem rgba(220, 40, 55, 0.2) !important;
+}
+
+.btn-rojo-envio {
+    background-color: var(--red) !important;
+    color: #ffffff !important;
+    border: none !important;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.btn-rojo-envio:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.divider-ridao {
+    gap: 15px;
+}
+
+.divider-line {
+    flex: 1;
+    height: 2px;
+    background-color: var(--red);
+}
+
+.divider-circle {
+    width: 12px;
+    height: 12px;
+    border: 2px solid var(--red);
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+/* Botones WhatsApp y Llamar */
+.btn-rojo-directo {
+    background-color: var(--red) !important;
+    color: #ffffff !important;
+    border: none !important;
+    padding: 0.5rem 1rem !important;
+    transition: filter 0.2s ease;
+}
+
+.btn-rojo-directo:hover {
+    color: #ffffff !important;
+    filter: brightness(0.9);
+}
+
+/* MODAL */
+.modal-ridao-content {
+    background-color: var(--red) !important;
+    border-radius: 35px !important;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3) !important;
+}
+
+.btn-aceptar-modal {
+    background-color: #ffffff !important;
+    color: var(--red) !important;
+    border: none !important;
+    font-size: 0.9rem !important;
+    letter-spacing: 0.5px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-aceptar-modal:hover {
+    background-color: #f8f9fa !important;
+    transform: scale(1.03);
+}
+
+@media (max-width: 576px) {
+    .map-wrapper iframe {
+        height: 300px;
+    }
+}
